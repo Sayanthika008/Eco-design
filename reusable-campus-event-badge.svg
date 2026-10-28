@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f4f1e8"/><stop offset="1" stop-color="#e8ede7"/></linearGradient>
+ <linearGradient id="shell" x2="1" y2="1"><stop stop-color="#d5e5d5"/><stop offset="1" stop-color="#a9c6b1"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#163b37" flood-opacity=".14"/></filter>
+ <style>
+ .sans{font-family:Arial,Helvetica,sans-serif}.ink{fill:#153b36}.muted{fill:#55716a}.label{font-size:14px;font-weight:700;letter-spacing:1.7px}.call{font-size:17px;font-weight:700}.body{font-size:14px}.small{font-size:12px}
+ </style>
+</defs>
+<rect width="1400" height="1000" fill="url(#bg)"/>
+<circle cx="1160" cy="120" r="170" fill="#dce8d9" opacity=".5"/><circle cx="170" cy="830" r="220" fill="#e1e8db" opacity=".65"/>
+<g class="sans ink">
+ <text x="76" y="74" class="label" fill="#527b68">CAMPUS EVENT SYSTEMS · CONCEPT 01</text>
+ <text x="76" y="133" font-size="48" font-weight="700" letter-spacing="-1.5">A badge built to come back.</text>
+ <text x="78" y="171" font-size="18" class="muted">Keep the holder. Replace only the name card. Return the rest.</text>
+</g>
+<!-- badge and strap -->
+<g filter="url(#shadow)">
+ <path d="M620 240 C620 192 780 192 780 240 L780 271 L755 271 L755 243 C755 220 645 220 645 243 L645 271 L620 271Z" fill="#37695a"/>
+ <rect x="620" y="250" width="160" height="32" rx="12" fill="#2f5c50"/>
+ <rect x="594" y="270" width="212" height="347" rx="28" fill="url(#shell)" stroke="#709780" stroke-width="3"/>
+ <rect x="611" y="287" width="178" height="312" rx="19" fill="#f7f5ec" stroke="#7c9d85" stroke-width="2"/>
+ <!-- insert -->
+ <path d="M629 305 H771 V565 H629Z" fill="#fffdf5"/>
+ <rect x="629" y="305" width="142" height="71" fill="#19483f"/>
+ <text x="700" y="333" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" letter-spacing="1.7" fill="#b8d6bd">NORTH CAMPUS</text>
+ <text x="700" y="358" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#fffdf5">MAKERS FEST</text>
+ <text x="700" y="418" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" letter-spacing="1.5" fill="#648075">PARTICIPANT</text>
+ <text x="700" y="464" text-anchor="middle" font-family="Arial" font-size="31" font-weight="700" fill="#183f39">ALEX RAY</text>
+ <line x1="650" y1="483" x2="750" y2="483" stroke="#d4ddd1" stroke-width="2"/>
+ <text x="700" y="510" text-anchor="middle" font-family="Arial" font-size="13" fill="#55716a">DESIGN · STUDIO 4</text>
+ <rect x="660" y="528" width="80" height="23" rx="11" fill="#e6eee2"/>
+ <text x="700" y="544" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#37695a">REUSE ME ↻</text>
+ <path d="M674 581 H726" stroke="#6f927d" stroke-width="4" stroke-linecap="round"/>
+</g>
+<!-- leader callouts -->
+<g fill="none" stroke="#648775" stroke-width="1.7" stroke-dasharray="4 5">
+ <path d="M600 325 H454 L414 290"/><path d="M799 350 H945 L985 312"/><path d="M795 575 H945 L985 603"/><path d="M620 240 H470 L430 215"/>
+</g>
+<g class="sans ink">
+ <circle cx="600" cy="325" r="5" fill="#37695a"/><text x="120" y="278" class="label" fill="#527b68">01 · KEEP</text><text x="120" y="307" class="call">One durable shell</text><text x="120" y="331" class="body muted">Slim, recycled-content PP body</text><text x="120" y="351" class="body muted">with a simple snap-fit back.</text>
+ <circle cx="799" cy="350" r="5" fill="#37695a"/><text x="1000" y="299" class="label" fill="#527b68">02 · SWAP</text><text x="1000" y="328" class="call">Small paper insert</text><text x="1000" y="352" class="body muted">Uncoated recycled card, printed</text><text x="1000" y="372" class="body muted">on demand; no full badge reprint.</text>
+ <circle cx="795" cy="575" r="5" fill="#37695a"/><text x="1000" y="589" class="label" fill="#527b68">03 · RETURN</text><text x="1000" y="618" class="call">Visible next step</text><text x="1000" y="642" class="body muted">Drop at check-out; clean, sort,</text><text x="1000" y="662" class="body muted">and issue again next event.</text>
+ <circle cx="620" cy="240" r="5" fill="#37695a"/><text x="120" y="201" class="label" fill="#527b68">04 · REUSE</text><text x="120" y="230" class="call">Keep the clip in circulation</text><text x="120" y="254" class="body muted">Detachable, standard clip or lanyard</text>
+</g>
+<!-- lifecycle panel -->
+<rect x="76" y="710" width="1248" height="216" rx="24" fill="#fffdf7" stroke="#d9e1d5"/>
+<g class="sans ink">
+ <text x="110" y="755" class="label" fill="#527b68">LOWER MATERIAL · LONGER USE · CLEAR RECOVERY</text>
+ <!-- three stages -->
+ <g transform="translate(110 787)">
+  <circle cx="25" cy="25" r="23" fill="#e3eee1"/><path d="M17 24h16M25 16v16" stroke="#37695a" stroke-width="3" stroke-linecap="round"/>
+  <text x="63" y="19" class="call">At check-in</text><text x="63" y="42" class="body muted">Insert name card; issue the</text><text x="63" y="61" class="body muted">same holder and clip.</text>
+ </g>
+ <path d="M475 813h65" stroke="#9bb7a2" stroke-width="2"/><path d="m532 806 9 7-9 7" fill="none" stroke="#9bb7a2" stroke-width="2"/>
+ <g transform="translate(570 787)">
+  <circle cx="25" cy="25" r="23" fill="#e3eee1"/><path d="M15 28c0-8 7-14 15-12m-1-4 5 5-6 3M35 22c0 8-7 14-15 12m1 4-5-5 6-3" fill="none" stroke="#37695a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="63" y="19" class="call">At check-out</text><text x="63" y="42" class="body muted">Collect holder + clip; remove</text><text x="63" y="61" class="body muted">and recycle the paper insert.</text>
+ </g>
+ <path d="M935 813h65" stroke="#9bb7a2" stroke-width="2"/><path d="m992 806 9 7-9 7" fill="none" stroke="#9bb7a2" stroke-width="2"/>
+ <g transform="translate(1030 787)">
+  <circle cx="25" cy="25" r="23" fill="#e3eee1"/><path d="M18 18h14l-2 17H20zM16 17h18M22 14h6" fill="none" stroke="#37695a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="63" y="19" class="call">At end of life</text><text x="63" y="42" class="body muted">Separate parts. Recycle the PP</text><text x="63" y="61" class="body muted">only where locally accepted.</text>
+ </g>
+ <line x1="110" y1="878" x2="1290" y2="878" stroke="#e3e8df"/>
+ <text x="110" y="903" font-size="12" font-weight="700" fill="#527b68">DESIGN RULE</text><text x="207" y="903" class="small muted">Avoid laminates, glued windows, mixed-material decoration, and single-use lanyards. Reuse depends on a staffed take-back loop.</text>
+</g>
+<text x="76" y="964" class="sans" font-size="11" fill="#6f877c">Concept direction · verify local material streams and durability before production.</text>
+</svg>
